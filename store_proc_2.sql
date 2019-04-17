@@ -1,0 +1,4 @@
+    
+CREATE PROCEDURE SELECT_STUDENTS_ID @id int
+AS
+SELECT * FROM Students WHERE Id = @id
