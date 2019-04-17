@@ -12,8 +12,6 @@ namespace _1704
     {
         static void Main(string[] args)
         {
-            // Data Source=.;Initial Catalog=EmployeeDB;Integrated Security=True
-
             //Command and Data Reader
             using (SqlConnection conn = new SqlConnection(@"Data Source=VS17-SQL2017\SQLEXPRESS;Initial Catalog=1404;Integrated Security=True"))
             {
